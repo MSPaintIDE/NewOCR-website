@@ -1,0 +1,10 @@
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "NewOCR on GitHub":
+    - "//github.com/RubbaBoy/NewOCR"
