@@ -8,3 +8,4 @@ search_enabled: true
 aux_links:
   "NewOCR on GitHub":
     - "//github.com/RubbaBoy/NewOCR"
+theme: jekyll-theme-cayman
