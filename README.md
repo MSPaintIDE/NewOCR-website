@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: newocr
 title: Home
 description: A wiki with examples/tutorials for NewOCR, a pure Java OCR without machine learning.
 nav_order: 1
