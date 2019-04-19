@@ -1,0 +1,13 @@
+os: linux
+language: shell
+sudo: true
+branches:
+  only:
+    - master
+before_install:
+  - sudo apt-get install ncftp -y
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  on:
+    branch: master
