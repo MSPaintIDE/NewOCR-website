@@ -5,6 +5,7 @@ parent: Explanation
 description: The reasoning behind creating the OCR, and what it is meant to do/not meant to do.
 nav_order: 1
 permalink: /explanation/creation
+github-path: explanation/creation.md
 ---
 
 # Creation
