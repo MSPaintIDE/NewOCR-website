@@ -4,7 +4,7 @@ title: Calculation
 description: How character separation works during training in NewOCR.
 parent: Training
 grand_parent: Explanation
-nav_order: 2
+nav_order: 3
 permalink: /explanation/training/calculation
 github-path: explanation/training/calculation.md
 ---

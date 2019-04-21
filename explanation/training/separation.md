@@ -4,14 +4,14 @@ title: Separation
 description: How character separation works during training in NewOCR.
 parent: Training
 grand_parent: Explanation
-nav_order: 1
+nav_order: 2
 permalink: /explanation/training/separation
 github-path: explanation/training/separation.md
 ---
 
 # Character Separation
 
-Character separation is the very first step in how the OCR, where a similar process occurs during scanning. character separation allows each character to be broken into a separate group to perform future data calculation on.
+Character separation is the very first step in how the OCR works, where a similar process occurs during scanning. character separation allows each character to be broken into a separate group to perform future data calculation on.
 
 Please note that this process does happen after binarization of the image, where in many OCRs would be paired with other preprocessing (Usually for dealing with natural images, which NewOCR does not support).
 
