@@ -13,4 +13,10 @@ github-path: explanation/scanning/separation.md
 
 Character separation is a simple process in scanning an image in NewOCR. Since each piece of a character (The dot of an I, the top part of an equals sign, the two separate circles of a percent, etc.) are defined as completely separate characters, no character merging is required yet.
 
-<src data-gh="https://github.com/RubbaBoy/NewOCR/blob/795bb0cdc88e44478778ce15e3b0db39e21a86d7/src/main/java/com/uddernetworks/newocr/recognition/OCRActions.java#L55-L67">The first thing the OCR does it go through all black pixels of the input image (after image binarization), and for every black pixel it gets, it gets all touching pixels recursively.</src>
+## Line Separation
+
+{% include line-separation.md %}
+
+## Character Separation
+
+<src data-gh="https://github.com/RubbaBoy/NewOCR/blob/7de96263853df8f63d340ecaf26284cb0d4dbb34/src/main/java/com/uddernetworks/newocr/recognition/OCRActions.java#L58-L70">The first thing the OCR does it go through all black pixels of the input image (after <src data-gh="<https://github.com/MSPaintIDE/NewOCR/blob/7de96263853df8f63d340ecaf26284cb0d4dbb34/src/main/java/com/uddernetworks/newocr/recognition/OCRScan.java#L90>">image binarization</src>), and for every black pixel it gets, it gets all touching pixels recursively.</src> After that, the 

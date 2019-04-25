@@ -28,16 +28,16 @@ A lot of research has gone into the development of NewOCR. There are a lot of go
 
 The following research papers were used:
 
-- https://www.researchgate.net/publication/260405352_OPTICAL_CHARACTER_RECOGNITION_OCR_SYSTEM_FOR_MULTIFONT_ENGLISH_TEXTS_USING_DCT_WAVELET_TRANSFORM
-- https://core.ac.uk/download/pdf/20643247.pdf
-- https://www.researchgate.net/publication/321761298_Generalized_Haar-like_filters_for_document_analysis_application_to_word_spotting_and_text_extraction_from_comics
-- https://pdfs.semanticscholar.org/c8b7/804abc030ee93eff2f5baa306b8b95361c57.pdf
-- http://www.frc.ri.cmu.edu/~akeipour/downloads/Conferences/ICIT13.pdf
-- https://support.dce.felk.cvut.cz/mediawiki/images/2/24/Bp_2017_troller_milan.pdf
-- http://www.cs.toronto.edu/~scottl/research/msc_thesis.pdf
-- https://www.researchgate.net/publication/258651794_Novel_Approach_for_Baseline_Detection_and_Text_Line_Segmentation
-- https://www.researchgate.net/publication/2954700_Neural_and_fuzzy_methods_in_handwriting_recognition
-- https://cyber.felk.cvut.cz/theses/papers/444.pdf
+- {% include link.html content="https://www.researchgate.net/publication/260405352_OPTICAL_CHARACTER_RECOGNITION_OCR_SYSTEM_FOR_MULTIFONT_ENGLISH_TEXTS_USING_DCT_WAVELET_TRANSFORM" %}
+- {% include link.html content="https://core.ac.uk/download/pdf/20643247.pdf" %}
+- {% include link.html content="https://www.researchgate.net/publication/321761298_Generalized_Haar-like_filters_for_document_analysis_application_to_word_spotting_and_text_extraction_from_comics" %}
+- {% include link.html content="https://pdfs.semanticscholar.org/c8b7/804abc030ee93eff2f5baa306b8b95361c57.pdf" %}
+- {% include link.html content="http://www.frc.ri.cmu.edu/~akeipour/downloads/Conferences/ICIT13.pdf" %}
+- {% include link.html content="https://support.dce.felk.cvut.cz/mediawiki/images/2/24/Bp_2017_troller_milan.pdf" %}
+- {% include link.html content="http://www.cs.toronto.edu/~scottl/research/msc_thesis.pdf" %}
+- {% include link.html content="https://www.researchgate.net/publication/258651794_Novel_Approach_for_Baseline_Detection_and_Text_Line_Segmentation" %}
+- {% include link.html content="https://www.researchgate.net/publication/2954700_Neural_and_fuzzy_methods_in_handwriting_recognition" %}
+- {% include link.html content="https://cyber.felk.cvut.cz/theses/papers/444.pdf" %}
 
 # Process
 

@@ -11,13 +11,13 @@ permalink: /
 
 NewOCR is an OCR made in Java without the use of machine learning, making it easy to use and contribute to.
 
-[View it on GitHub](https://github.com/RubbaBoy/NewOCR){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View it on GitHub](https://github.com/MSPaintIDE/NewOCR){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
 ## Getting started
 
-To use NewOCR, you can either download the latest jar from [GitHub](https://github.com/RubbaBoy/NewOCR/releases), or by using Gradle or Maven (The latter two being preferred).
+To use NewOCR, you can either download the latest jar from [GitHub](https://github.com/MSPaintIDE/NewOCR/releases), or by using Gradle or Maven (The latter two being preferred).
 
 ### Gradle
 
