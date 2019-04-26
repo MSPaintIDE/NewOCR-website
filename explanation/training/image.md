@@ -19,7 +19,7 @@ The training image generation is the precursor to training. It creates an image 
 
 For reference, the following is an example of a training image with a font family of Comic Sans MS with otherwise default settings:
 
-{% include image-download.html content="/images/train_comicsans.png" %}
+{% include image-download.html path="/images/train_comicsans.png" %}
 
 <src data-gh="https://github.com/RubbaBoy/NewOCR/blob/7de96263853df8f63d340ecaf26284cb0d4dbb34/src/main/java/com/uddernetworks/newocr/train/ComputerTrainGenerator.java#L50-L56">To generate the image, the system goes from the maximum font at the top of the image, down to the minimum font printing the text below on each line in the decrementing font size.</src> Due to the font string being hardcoded into the OCR, it can not currently be changed, though there is [an open issue](https://github.com/RubbaBoy/NewOCR/issues/9) to add arbitrary alphabet support. <src data-gh="https://github.com/RubbaBoy/NewOCR/blob/7de96263853df8f63d340ecaf26284cb0d4dbb34/src/main/java/com/uddernetworks/newocr/recognition/OCRScan.java#L32">This is the training string used</src> :
 

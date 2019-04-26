@@ -26,10 +26,14 @@
             let textElem = imageDownload.getElementsByClassName("download-text")[0];
             let filePath = textElem.getAttribute("data-image");
             let fileName = filePath.substring(filePath.lastIndexOf("/") + 1, textElem.length);
-            textElem.innerText = fileName;
 
             let downloadInfo = imageDownload.getElementsByClassName("download-info")[0];
-            downloadInfo.setAttribute("download", fileName);
+            if (downloadInfo.getAttribute("download") === '') {
+                downloadInfo.setAttribute("download", fileName);
+                textElem.innerText = fileName;
+            } else {
+                textElem.innerText = downloadInfo.getAttribute("download");
+            }
         }
     };
 </script>
