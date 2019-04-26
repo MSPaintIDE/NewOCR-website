@@ -2,6 +2,7 @@
 layout: newocr
 title: Spacing
 description: How spacing works during scanning in NewOCR.
+keywords: Spacing, Character
 parent: Scanning
 grand_parent: Explanation
 nav_order: 4

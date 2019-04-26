@@ -2,6 +2,7 @@
 layout: newocr
 title: Training Image
 description: How the training image is generated in NewOCR.
+keywords: Training, Train Generation, Generation
 parent: Training
 grand_parent: Explanation
 nav_order: 1

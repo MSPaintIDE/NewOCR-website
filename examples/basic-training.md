@@ -3,6 +3,7 @@ layout: newocr
 title: Basic Training
 parent: Examples
 description: A basic example of how to train NewOCR.
+keywords: Examples, Training, Generate, Basic
 nav_order: 1
 permalink: /examples/basic-training
 github-path: examples/basic-training.md

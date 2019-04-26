@@ -3,6 +3,7 @@ layout: newocr
 title: Creation
 parent: Explanation
 description: The reasoning behind creating the OCR, and what it is meant to do/not meant to do.
+keywords: Creation, Background, Motive, Research, Researchgate, Process
 nav_order: 1
 permalink: /explanation/creation
 github-path: explanation/creation.md

@@ -2,6 +2,7 @@
 layout: newocr
 title: Calculation
 description: How characters are calculated in scanning an image with NewOCR.
+keywords: Character Calculation, Sorting, Character Segmentation, Character Merging
 parent: Scanning
 grand_parent: Explanation
 nav_order: 2

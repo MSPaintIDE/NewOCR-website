@@ -2,6 +2,7 @@
 layout: newocr
 title: Explanation
 description: A detailed description of how the OCR actually works.
+keywords: Explanation, Questions
 nav_order: 2
 has_children: true
 permalink: /explanation/

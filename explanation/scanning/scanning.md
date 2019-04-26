@@ -2,6 +2,7 @@
 layout: newocr
 title: Scanning
 description: The scanning portition of how NewOCR works.
+keywords: Scanning, Explanation
 parent: Explanation
 has_children: true
 nav_order: 3

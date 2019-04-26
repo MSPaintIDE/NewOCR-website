@@ -2,6 +2,7 @@
 layout: newocr
 title: Training
 description: The training portition of how NewOCR works.
+keywords: Training
 parent: Explanation
 has_children: true
 nav_order: 2

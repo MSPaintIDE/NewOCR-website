@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="twitter:description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+    {% endif %}
+
+    <meta name="keywords" content="NewOCR, OCR, Java, Wiki, Open Source, OS, Gradle, Maven, RubbaBoy, MS Paint IDE, MSPaint, Paint, {{ page.keywords }}">
+
+    <meta name="author" content="RubbaBoy">
+
+    <meta name="theme-color" content="#27262b">
+    <meta name="msapplication-navbutton-color" content="#27262b">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#27262b">
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@MSPaintIDE"/>
+    <meta name="twitter:creator" content="@MSPaintIDE"/>
+    <meta name="twitter:title" content="{{ page.title }} - {{ site.title }}"/>
+
+    <meta property="og:title" content="{{ page.title }} - {{ site.title }}">
+
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/just-the-docs.css" | absolute_url }}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84382008-4"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-84382008-4');
+    </script>
+
+    {% if site.search_enabled != nil %}
+    <script type="text/javascript" src="{{ "/assets/js/vendor/lunr.min.js" | absolute_url }}"></script>
+    {% endif %}
+    <script type="text/javascript" src="{{ "/assets/js/just-the-docs.js" | absolute_url }}"></script>
+</head>

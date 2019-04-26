@@ -2,6 +2,7 @@
 layout: newocr
 title: Examples
 description: Examples of how to use NewOCR.
+keywords: Examples, Scanning, Training
 nav_order: 4
 has_children: true
 permalink: /examples/

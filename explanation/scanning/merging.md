@@ -2,6 +2,7 @@
 layout: newocr
 title: Merging
 description: How character mergence works during scanning in NewOCR.
+keywords: Character Mergence, Merge, Merge Rule
 parent: Scanning
 grand_parent: Explanation
 nav_order: 3

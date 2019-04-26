@@ -2,6 +2,7 @@
 layout: newocr
 title: Calculation
 description: How character separation works during training in NewOCR.
+keywords: Calculation, Sorting, Character Segmentation
 parent: Training
 grand_parent: Explanation
 nav_order: 3

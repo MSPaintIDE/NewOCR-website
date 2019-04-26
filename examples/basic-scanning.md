@@ -3,6 +3,7 @@ layout: newocr
 title: Basic Scanning
 parent: Examples
 description: A basic example of how to scan images with NewOCR.
+keywords: Examples, Scanning, Basic
 nav_order: 2
 permalink: /examples/basic-scanning
 github-path: examples/basic-scanning.md

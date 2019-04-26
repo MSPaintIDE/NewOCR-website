@@ -2,6 +2,7 @@
 layout: newocr
 title: Separation
 description: How character separation works during training in NewOCR.
+keywords: Separation, Character Separation, Line Separation
 parent: Training
 grand_parent: Explanation
 nav_order: 2
