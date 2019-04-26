@@ -8,4 +8,4 @@ search_enabled: true
 # Aux links for the upper right navigation
 aux_links:
   "NewOCR on GitHub":
-    - "//github.com/RubbaBoy/NewOCR"
+    - "//github.com/MSPaintIDE/NewOCR"

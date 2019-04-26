@@ -24,7 +24,7 @@ NewOCR is *not* an OCR that reads natural images (Non computer-generated images)
 
 ## Research
 
-A lot of research has gone into the development of NewOCR. There are a lot of good research papers on OCR technologies, with various different implementations, and varying levels of success.Some of the following research papers weren't used in the final release of NewOCR, but were used in the development and testing of the OCR, or are just good resources on making your own similar OCR.
+A lot of research has gone into the development of NewOCR. There are a lot of good research papers on OCR technologies, with various different implementations, and varying levels of success.Some of the following research papers weren't used in the final release of NewOCR, but were used in the development and testing of the OCR, or are just good resources on making a similar OCR.
 
 The following research papers were used:
 

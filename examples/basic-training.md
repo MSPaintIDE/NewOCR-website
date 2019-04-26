@@ -23,7 +23,7 @@ new ComputerTrainGenerator().generateTrainingImage(new File("train_comicsans.png
 
 ## Training With The Image
 
-After the training image has been generated, it can be trained. First, some managers must be created. More specifically, the DatabaseManager, SimilarityManager, and MergenceManager. The following creates these objects with the local HSQLDB database stored in `database\ocr_basictraining
+After the training image has been generated, it can be trained. First, some managers must be created. More specifically, the DatabaseManager, SimilarityManager, and MergenceManager. The following creates these objects with the local HSQLDB database stored in `database\ocr_basictraining`
 
 ```java
 var databaseManager = new OCRDatabaseManager(new File("database\\ocr_basictraining"));

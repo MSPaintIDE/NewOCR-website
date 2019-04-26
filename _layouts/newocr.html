@@ -21,6 +21,16 @@
             cite.classList.add("cite-" + i);
             cite.outerHTML += `<span class="citation" onmouseover="hoverCite(${i})" onmouseleave="unhoverCite(${i})">[<a href="${cite.getAttribute("data-gh")}" target="_blank">code</a>]</span>`;
         }
+
+        for (let imageDownload of document.getElementsByClassName("image-download")) {
+            let textElem = imageDownload.getElementsByClassName("download-text")[0];
+            let filePath = textElem.getAttribute("data-image");
+            let fileName = filePath.substring(filePath.lastIndexOf("/") + 1, textElem.length);
+            textElem.innerText = fileName;
+
+            let downloadInfo = imageDownload.getElementsByClassName("download-info")[0];
+            downloadInfo.setAttribute("download", fileName);
+        }
     };
 </script>
 <style>
@@ -35,6 +45,31 @@
         background: #b2b200;
         box-shadow: 3px 0 0 #b2b200, -3px 0 0 #b2b200;
         padding: 3px 0;
+    }
+    .image-download {
+        width: fit-content;
+        display: grid;
+        border: 1px solid #44434d;
+        margin-bottom: 10px;
+    }
+    .download-icon {
+        display: inline-block;
+    }
+    .download-info {
+        display: flex;
+        padding: 5px 0 5px 5px;
+    }
+    .download-info:hover .download-icon > path:first-child,
+    .download-info:hover .download-text {
+        fill: #93a1a1;
+        color: #93a1a1;
+    }
+    .download-text {
+        display: inline-block;
+        color: white;
+        line-height: 30px;
+        margin-left: 10px;
+        margin-bottom: -4px;
     }
 </style>
 {% include head.html %}
