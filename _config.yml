@@ -5,6 +5,8 @@ color_scheme: "dark"
 # Enable or disable the site search
 search_enabled: true
 
+title: "NewOCR Wiki"
+
 # Aux links for the upper right navigation
 aux_links:
   "NewOCR on GitHub":
