@@ -5,9 +5,6 @@ color_scheme: "dark"
 # Enable or disable the site search
 search_enabled: true
 
-# Google Analytics Tracking (optional)
-ga_tracking: UA-84382008-4
-
 # Aux links for the upper right navigation
 aux_links:
   "NewOCR on GitHub":
