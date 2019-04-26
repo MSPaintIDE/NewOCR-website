@@ -1,37 +1,7 @@
----
-layout: newocr
-title: Home
-description: A wiki with examples/tutorials for NewOCR, a pure Java OCR without machine learning.
-nav_order: 1
-permalink: /
----
+# NewOCR Wiki
 
-# Navigation Structure
-{: .fs-9 }
+The NewOCR wiki is a website to give detailed information on how the OCR works, along with examples of how to use it. This website is hosted via [GitHub Pages](https://pages.github.com/) and is using the Jekyll theme [Just The Docs](https://github.com/pmarsceill/just-the-docs). 
 
-NewOCR is an OCR made in Java without the use of machine learning, making it easy to use and contribute to.
+To locally build and view this website, first ruby must be installed. Uncomment the `theme:` line in `_config.yml` and then run `bundle`  followed by `bundle exec jekyll serve`.
 
-[View it on GitHub](https://github.com/MSPaintIDE/NewOCR){: .btn .fs-5 .mb-4 .mb-md-0 }
-
----
-
-## Getting started
-
-NewOCR can either download the latest jar from [GitHub](https://github.com/MSPaintIDE/NewOCR/releases), or by using Gradle or Maven (The latter two being preferred).
-
-### Gradle
-
-```groovy
-compile 'com.uddernetworks.newocr:NewOCR:2.0.0-SNAPSHOT'
-```
-
-### Maven
-
-```xml
-<dependency>
-    <groupId>com.uddernetworks.newocr</groupId>
-    <artifactId>NewOCR</artifactId>
-    <version>2.0.0-SNAPSHOT</version>
-</dependency>
-```
-
+If something should be added onto the wiki such as better descriptions, more code examples, etc. please make an issue.

@@ -43,8 +43,4 @@ The following research papers were used:
 
 The way the OCR goes from reading the image to returning text can be broken down into a few steps, broken into the training and scanning category. Training reads the characters and puts data into a database, and scanning uses the trained data to get the characters.
 
-## Training
-
-
-
-## Scanning
+The starting pages for the explanation for training and scanning are available respectively [here](training/) and [here](scanning/).

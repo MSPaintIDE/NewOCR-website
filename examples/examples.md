@@ -2,7 +2,7 @@
 layout: newocr
 title: Examples
 description: Examples of how to use NewOCR.
-nav_order: 3
+nav_order: 4
 has_children: true
 permalink: /examples/
 github-path: examples/examples.md
