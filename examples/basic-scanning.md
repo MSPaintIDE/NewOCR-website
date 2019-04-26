@@ -12,7 +12,7 @@ github-path: examples/basic-scanning.md
 
 After training a font with NewOCR, it is ready to scan an image. For this example, the image being scanned is the following:
 
-{% include image-download.html path="/images/basic_scanning.png" name="basic-scanning.png" %}
+{% include image-download.html path="/images/basic_scan.png" name="basic-scanning.png" %}
 
 Similar to training, the first thing that needs to be done is is creating some managers. The following creates these objects with the local HSQLDB database stored in `database\ocr_basictraining`
 
@@ -88,7 +88,7 @@ public class Scanning {
         var fontConfiguration = new HOCONFontConfiguration("fonts/ComicSans", new ConfigReflectionCacher(), similarityManager, mergenceManager);
         var ocrScan = new OCRScan(databaseManager, fontConfiguration.fetchOptions(), similarityManager);
 
-        ScannedImage scannedImage = ocrScan.scanImage(new File(basic_scanning.png));
+        ScannedImage scannedImage = ocrScan.scanImage(new File("basic_scanning.png"));
         System.out.println(OCRUtils.removeLeadingSpaces(scannedImage.getPrettyString()));
         
         databaseManager.shutdown();
