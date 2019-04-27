@@ -42,7 +42,7 @@ var fontConfiguration = new HOCONFontConfiguration("fonts/ComicSans", new Config
 After this, this object to scan the image must be created, using the fetched configuration options.
 
 ```java
-var ocrScan = new OCRScan(databaseManager, fontConfiguration.fetchOptions(), similarityManager);
+var ocrScan = new OCRScan(databaseManager, fontConfiguration.fetchOptions(), similarityManager, mergenceManager);
 ```
 
 Once that object has been created, the OCR is ready to scan the image, in this case, `"basic-scanning.png"`. The method [OCRScan#scanImage(File)](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/recognition/OCRScan.html#scanImage(java.io.File)) simply returns a [ScannedImage](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/ScannedImage.html) which contains all image data.
@@ -87,7 +87,7 @@ public class Scanning {
         }
 
         var fontConfiguration = new HOCONFontConfiguration("fonts/ComicSans", new ConfigReflectionCacher(), similarityManager, mergenceManager);
-        var ocrScan = new OCRScan(databaseManager, fontConfiguration.fetchOptions(), similarityManager);
+        var ocrScan = new OCRScan(databaseManager, fontConfiguration.fetchOptions(), similarityManager, mergenceManager);
 
         ScannedImage scannedImage = ocrScan.scanImage(new File("basic_scanning.png"));
         System.out.println(OCRUtils.removeLeadingSpaces(scannedImage.getPrettyString()));
