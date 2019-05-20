@@ -20,7 +20,7 @@ Arguably the most important step in the OCR, the system next needs to derive the
 
 ## Storing The Data
 
-After the data is calculated for each character, <src data-gh="https://github.com/RubbaBoy/NewOCR/blob/7aa211108c8da4d7900b4e89442b1a003dfe1c3e/src/main/java/com/uddernetworks/newocr/recognition/OCRTrain.java#L220-L225">the 16 data points are separately averaged with all other characters, and then the resulting points are stored in the database.</src>
+After the data is calculated for each character, <src data-gh="https://github.com/MSPaintIDE/NewOCR/blob/2dcf3f19c218e233943dbaf12361f54eea8bb472/src/main/java/com/uddernetworks/newocr/recognition/OCRTrain.java#L247-L252">the 16 data points are separately averaged with all other characters, and then the resulting points are stored in the database.</src>
 
 ## Font Sizes
 
