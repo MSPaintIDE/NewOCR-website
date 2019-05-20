@@ -13,6 +13,7 @@ github-path: index.md
 NewOCR is an OCR made in Java without the use of machine learning, making it easy to use and contribute to.
 
 [View it on GitHub](https://github.com/MSPaintIDE/NewOCR){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Docs](https://docs.newocr.dev/){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 

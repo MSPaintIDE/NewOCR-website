@@ -24,7 +24,7 @@ new ComputerTrainGenerator().generateTrainingImage(new File("train_comicsans.png
 
 ## Training With The Image
 
-After the training image has been generated, it can be trained. First, some managers must be created. More specifically, the DatabaseManager, SimilarityManager, and MergenceManager. The following creates these objects with the local HSQLDB database stored in `database\ocr_basictraining`
+After the training image has been generated, it can be trained. First, some managers must be created. More specifically, the [DatabaseManager](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/database/DatabaseManager.html), [SimilarityManager](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/recognition/similarity/SimilarityManager.html), and [MergenceManager](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/recognition/mergence/MergenceManager.html). The following creates these objects with the local HSQLDB database stored in `database\ocr_basictraining`
 
 ```java
 var databaseManager = new OCRDatabaseManager(new File("database\\ocr_basictraining"));
@@ -44,7 +44,7 @@ After this, the object to actually train the database must be created using the 
 var ocrTrain = new OCRTrain(databaseManager, fontConfiguration.fetchOptions());
 ```
 
-After that has been created, the database can be trained with the [OCRTrain#trainImage(File, GenerateOptions)](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/recognition/OCRTrain.html#trainImage(java.io.File, com.uddernetworks.newocr.train.TrainGeneratorOptions)) method, with the argument pointed towards the generated image in the first step.If the generate options are not specified (Removing that parameter) the OCR will not be trained to recognize font sizes.
+After that has been created, the database can be trained with the [OCRTrain#trainImage(File, GenerateOptions)](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/recognition/OCRTrain.html#trainImage(java.io.File,com.uddernetworks.newocr.train.TrainGeneratorOptions)) method, with the argument pointed towards the generated image in the first step.If the generate options are not specified (Removing that parameter) the OCR will not be trained to recognize font sizes.
 
 ```java
 ocrTrain.trainImage(new File("train_comicsans.png"), generateOptions);

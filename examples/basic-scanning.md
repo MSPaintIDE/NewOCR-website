@@ -33,7 +33,7 @@ if (!databaseManager.isTrainedSync()) {
 }
 ```
 
-Also similar to training, next that is needed is the font configuration manager. This is to read the correct configuration for the font that has been set, Comic Sans. This path is to a predefined file in the NewOCR library. This also applied the configuration values to the SimilarityManager and MergenceManager created prior.
+Also similar to training, next that is needed is the font configuration manager. This is to read the correct configuration for the font that has been set, Comic Sans. This path is to a predefined file in the NewOCR library. This also applied the configuration values to the [SimilarityManager](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/recognition/similarity/SimilarityManager.html) and [MergenceManager](https://docs.newocr.dev/NewOCR/com/uddernetworks/newocr/recognition/mergence/MergenceManager.html) created prior.
 
 ```java
 var fontConfiguration = new HOCONFontConfiguration("fonts/ComicSans", new ConfigReflectionCacher(), similarityManager, mergenceManager);
