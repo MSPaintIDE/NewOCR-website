@@ -1,5 +1,4 @@
 remote_theme: pmarsceill/just-the-docs
-# theme: "just-the-docs" # Uncomment for local development
 color_scheme: "dark"
 
 # Enable or disable the site search

@@ -7,7 +7,7 @@ permalink: /
 github-path: index.md
 ---
 
-# Navigation Structure
+# NewOCR
 {: .fs-9 }
 
 NewOCR is an OCR made in Java without the use of machine learning, making it easy to use and contribute to.
