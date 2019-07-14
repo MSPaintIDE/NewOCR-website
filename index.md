@@ -24,7 +24,7 @@ NewOCR can either download the latest jar from [GitHub](https://github.com/MSPai
 ### Gradle
 
 ```groovy
-compile 'com.uddernetworks.newocr:NewOCR:2.0.0-SNAPSHOT'
+compile 'com.uddernetworks.newocr:NewOCR:2.0.0'
 ```
 
 ### Maven
@@ -33,7 +33,7 @@ compile 'com.uddernetworks.newocr:NewOCR:2.0.0-SNAPSHOT'
 <dependency>
     <groupId>com.uddernetworks.newocr</groupId>
     <artifactId>NewOCR</artifactId>
-    <version>2.0.0-SNAPSHOT</version>
+    <version>2.0.0</version>
 </dependency>
 ```
 
